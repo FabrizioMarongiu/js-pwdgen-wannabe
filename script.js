@@ -12,10 +12,10 @@ document.getElementById('realname').innerHTML='Il tuo nome è ' + name;
 var surname = prompt('Inserisci il tuo cognome');
 console.log(surname);
 
-document.getElementById('realsurname').innerHTML='Il tuo cognome è ' + surname;
+document.getElementById('realsurname').innerHTML = 'Il tuo cognome è ' + surname;
 
-//SURNAME MESSAGE
+//COLOR MESSAGE
 var color = prompt('Inserisci il tuo colore preferito');
 console.log(color);
 
-//document.getElementById('realcolor').innerHTML='Il tuo colore preferito è ' + color;
+document.getElementById('realcolor').innerHTML='Il tuo colore preferito è ' + color;

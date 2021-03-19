@@ -3,10 +3,10 @@ alert('Ciao!In questo sito potrai creare delle password sicurissime da poter uti
 document.getElementById('first-message').innerHTML='Ciao!In questo sito potrai creare delle password sicurissime da poter utilizzare nel web...non ci credi?...Vai avanti!!';
 
 //NAME MESSAGE
-var name = prompt('Inserisci il tuo nome');
-console.log('name ' + name);
+var firstname = prompt('Inserisci il tuo nome');
+console.log('name ' + firstname);
 
-document.getElementById('realname').innerHTML='Il tuo nome è ' + name;
+document.getElementById('realname').innerHTML='Il tuo nome è ' + firstname;
 
 //SURNAME MESSAGE
 var surname = prompt('Inserisci il tuo cognome');
@@ -23,9 +23,9 @@ document.getElementById('realcolor').innerHTML='Il tuo colore preferito è ' + c
 //ADD 21
 var secretNumber = 21;
 //RETURN PASSWORD
-console.log('secure password is ' + name + surname + color + secretNumber);
+console.log('secure password is ' + firstname + surname + color + secretNumber);
 
-document.getElementById('password').innerHTML = 'La tua password sicurissima è ' + name + surname + color + secretNumber;
+document.getElementById('password').innerHTML = 'La tua password sicurissima è ' + firstname + surname + color + secretNumber;
 
 //LAST MESSAGE
 alert('Ti svelo un segreto...Vuoi sapere qualè?');
